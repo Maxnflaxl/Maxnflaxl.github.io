@@ -1,1 +1,0 @@
-alert("Press OK so literally noting to happen");

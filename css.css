@@ -1,4 +1,10 @@
-h1 {
+.test {
     color: green;
     
+}
+.PP-Section-Max {
+  color: red;
+}
+.PP-Section-Other {
+    color:green;
 }

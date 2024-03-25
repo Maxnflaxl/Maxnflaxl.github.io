@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beam Mining Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Beam Mining Calculator</h1>
+        <form id="miningForm">
+            <label for="networkHashrate">Network Hashrate (megahashes per second):</label>
+            <input type="number" id="networkHashrate" required><br>
+            <label for="yourHashrate">Your Hashrate (kilohashes per second):</label>
+            <input type="number" id="yourHashrate" required><br>
+            <label for="blockTargetTime">Block Target Time (minutes):</label>
+            <input type="number" id="blockTargetTime" required><br>
+            <label for="blockReward">Block Reward Amount:</label>
+            <input type="number" id="blockReward" required><br>
+            <label for="exchangePrice">Exchange Price per Unit (USD):</label>
+            <input type="number" id="exchangePrice" required><br>
+            <label for="powerConsumptionWatts">Power Consumption (watts):</label>
+            <input type="number" id="powerConsumptionWatts" required><br>
+            <label for="costPerKWH">Cost per Kilowatt-hour (USD):</label>
+            <input type="number" id="costPerKWH" required><br>
+            <button type="button" onclick="calculate()">Calculate</button>
+        </form>
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

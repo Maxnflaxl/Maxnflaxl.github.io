@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0B76FF; /* Page background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #FE52FF; /* Container border color */
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"],
+button {
+    margin-bottom: 10px;
+    width: calc(100% - 22px); /* Adjusting width to fit container padding */
+}
+
+button {
+    padding: 10px 0;
+    background-color: #00E2C2; /* Button background color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #02c9a1; /* Button hover background color */
+}
+
+#results {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
